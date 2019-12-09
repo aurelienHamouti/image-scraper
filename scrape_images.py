@@ -55,9 +55,9 @@ def scrape_images_by_page(subject, header, resultIndex, directory):
 
 #---main programm---
 directoryTarget="pets" 
-browserHeader={'User-Agent':"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"}
+browserHeader={'User-Agent':"Mozilla/6.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"}
 indexMax = 500 #~ nb max images we want, warning !!! bing is limited for number of images by research
-lstSubjects = ['kitten','puppy','bird','dog','cute+animal','poney'] #target subject 
+lstSubjects = ['kitten','puppy','bird','dog','cute+animal','poney'] #target subjects 
 
 for subject in lstSubjects:
     i = 0 #init
